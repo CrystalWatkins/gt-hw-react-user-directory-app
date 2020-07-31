@@ -5,6 +5,52 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+# React Quiz
+
+In this activity, we will begin by installing a few helpful packages and then explore the React documentation to answer questions.
+
+## Instructions
+
+### Part 1
+
+* Begin by executing Create React App by running the following command in your terminal:
+
+`npx create-react-app <appname>` where `<appname>` is what you want to name your app. Example: `npx create-react-app practiceapp`.
+
+### Part 2
+
+* While those are installing, work with your group to answer each of the following questions using the [ReactJS Documentation](https://facebook.github.io/react/):
+
+1. In the previous section we executed Create React App. What is it for?
+getting the react components- downloading and installing them
+
+2. What are some benefits of using ReactJS?
+loads faster, reusable components, develop new features in react without writing existing code, 
+
+3. What is a React component? Hint: Check the "Components and Props" section of the React documentation.
+lets you build capsulated components - broken down for reusable components
+
+4. What is the significance of the `ReactDOM.render` method? Hint: Check the "ReactDOM" section of the documentation.
+creates a node and allows react to listen to it 
+
+5. What is JSX? Why does Facebook recommend using it? Hint: Check the "Introducing JSX" section of the documentation.
+inject data into HTML- functions and regular javascript expressions
+
+6. What does Facebook recommend as the “best way to start building a new React single page application”? Hint: Check the "Installation" section of the React documentation.
+create react app - doesn't have to create webpack and has all the dependencies for you
+
+7. What is Babel? And what role does it play in converting JSX into vanilla JavaScript? Hint: Check the "Introducing JSX" section of the documentation.
+compiling JSX and allows you to update the DOM easier
+
+
+8. What is the significance of { } curly braces in JSX? Hint: Check the "Introducing JSX" section of the documentation.
+inject JS expressions into JSX expression
+
+9. What is a component prop? Hint: Check the "Components and Props" section of the React documentation.
+React components are small, reusable pieces of code that return a React element to be rendered to the page that are called props 
+
+//go over and re-learn these answers!
+
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
