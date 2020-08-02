@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/gt-hw-react-user-directory-app/static/js/main.577467c7.chunk.js",
+    "main.js.map": "/gt-hw-react-user-directory-app/static/js/main.577467c7.chunk.js.map",
+    "runtime-main.js": "/gt-hw-react-user-directory-app/static/js/runtime-main.4d50c99a.js",
+    "runtime-main.js.map": "/gt-hw-react-user-directory-app/static/js/runtime-main.4d50c99a.js.map",
+    "static/js/2.1559cf65.chunk.js": "/gt-hw-react-user-directory-app/static/js/2.1559cf65.chunk.js",
+    "static/js/2.1559cf65.chunk.js.map": "/gt-hw-react-user-directory-app/static/js/2.1559cf65.chunk.js.map",
+    "index.html": "/gt-hw-react-user-directory-app/index.html",
+    "precache-manifest.b2cfce253c5c8cee3b5a795a5f1d05a6.js": "/gt-hw-react-user-directory-app/precache-manifest.b2cfce253c5c8cee3b5a795a5f1d05a6.js",
+    "service-worker.js": "/gt-hw-react-user-directory-app/service-worker.js",
+    "static/js/2.1559cf65.chunk.js.LICENSE.txt": "/gt-hw-react-user-directory-app/static/js/2.1559cf65.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d50c99a.js",
+    "static/js/2.1559cf65.chunk.js",
+    "static/js/main.577467c7.chunk.js"
+  ]
+}
