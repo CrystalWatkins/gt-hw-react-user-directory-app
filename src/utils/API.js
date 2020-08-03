@@ -10,7 +10,7 @@ export default {
     return axios.get("//https://randomuser.me/api/?exc=" + this.results.name.first || this.results.name.last || this.results.email || 
     this.results.phone || this.results.picture.medium);
   },
-  getFilteredList: function() {
+  getSearchedUser: function() {
     return axios.get("https://randomuser.me/api/?inc=" + this.results.name.first || this.results.name.last || this.results.email || 
     this.results.phone || this.results.picture.medium);
   }

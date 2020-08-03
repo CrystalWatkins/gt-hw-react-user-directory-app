@@ -23,22 +23,6 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/sort"
-              className={window.location.pathname === "/sort" ? "nav-link active" : "nav-link"}
-            >
-              Sort
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/filter"
-              className={window.location.pathname === "/filter" ? "nav-link active" : "nav-link"}
-            >
-              Filter
-            </Link>
-          </li>
         </ul>
       </div>
     </nav>
