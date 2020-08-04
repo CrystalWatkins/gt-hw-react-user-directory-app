@@ -33,9 +33,9 @@ This is a react app that has a list of users.
  
 [Link to Github Website](https://crystalwatkins.github.io/gt-hw-react-user-directory-app/).
 
-![Photo 1](../public/images/photo.png)
-![Photo 2](../public/images/photo1.png)
-![Photo 2](../public/images/photo2.png)
+![Photo 1](./public/images/one.png)
+![Photo 2](./public/images/two.png)
+![Photo 2](./public/images/three.png)
 
 
 ## Credits
