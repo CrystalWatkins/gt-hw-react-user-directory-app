@@ -35,7 +35,7 @@ This is a react app that has a list of users.
 
 ![Photo 1](./public/images/one.png)
 ![Photo 2](./public/images/two.png)
-![Photo 2](./public/images/three.png)
+![Photo 3](./public/images/three.png)
 
 
 ## Credits
