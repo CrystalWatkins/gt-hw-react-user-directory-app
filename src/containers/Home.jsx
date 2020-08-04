@@ -14,7 +14,7 @@ class Home extends Component {
     Axios.get("https://randomuser.me/api/?results=10").then((res) =>
 
       this.setState({
-        employees: res.data.results,
+        employees: res.data.result
         sortEmployees: res.data.results,
       })
     );
