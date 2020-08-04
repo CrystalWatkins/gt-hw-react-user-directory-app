@@ -21,14 +21,14 @@ class Home extends Component {
   }
 
   handleInputChange = (event) => {
-    const value = event.currentTarget.value;
-    console.log(value);
+    const searchValue = event.currentTarget.value;
+    console.log(searchValue);
     this.setState({ search: event.currentTarget.value });
     const searchedEmployees = this.state.employees.filter((user) => {
       console.log("user", Object.values(user));
       let results = Object.values(user).join("").toLowerCase();
 
-      return results.indexOf(value.toLowerCase()) !== -1;
+      return results.indexOf(searchValue.toLowerCase()) !== -1;
     });
     this.setState({ employees: searchedEmployees });
   };
@@ -92,9 +92,8 @@ class Home extends Component {
           <h1 className="display-4">Employee Directory</h1>
           <hr className="my-4" />
           <p>
-            {" "}
             Click on the heading to filter by the heading or use the search box
-            to narrow your results.{" "}
+            to narrow your results.
           </p>
           <input
             name="search"
@@ -102,7 +101,7 @@ class Home extends Component {
             value={this.state.search}
             onChange={this.handleInputChange}
             placeholder="search by name"
-          />{" "}
+          />
         </div>
         <table className="table table-striped">
           <thead className="thead-dark">
@@ -110,23 +109,22 @@ class Home extends Component {
               <th scope="col">Image</th>
               <th scope="col" onClick={this.sortEmployeesByName}>
                 <button type="button" className="btn btn-outline-light">
-                  {" "}
-                  Name{" "}
+                  Name
                 </button>
               </th>
               <th scope="col" onClick={this.sortEmployeesByPhone}>
                 <button type="button" className="btn btn-outline-light">
-                  Phone{" "}
-                </button>{" "}
+                  Phone
+                </button>
               </th>
               <th scope="col" onClick={this.sortEmployeesByEmail}>
                 <button type="button" className="btn btn-outline-light">
-                  Email{" "}
-                </button>{" "}
+                  Email
+                </button>
               </th>
               <th scope="col" onClick={this.sortEmployeesByAge}>
                 <button type="button" className="btn btn-outline-light">
-                  Age{" "}
+                  Age
                 </button>
               </th>
             </tr>
@@ -135,14 +133,12 @@ class Home extends Component {
             {this.state.employees.map((employee) => (
               <tr key={employee.cell}>
                 <td>
-                  {" "}
                   <img
                     src={employee.picture.thumbnail}
                     alt="employee headshot"
-                  />{" "}
+                  />
                 </td>
-                <td>
-                  {" "}
+                <td>          
                   {employee.name.first} {employee.name.last}{" "}
                 </td>
                 <td>{employee.cell}</td>
