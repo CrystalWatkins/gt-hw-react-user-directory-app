@@ -6,7 +6,7 @@ class Home extends Component {
   state = {
     search: "",
     employees: [],
-    filterEmployees: [],
+    filterEmployees: [{}],
     // error: ""
   };
 
@@ -22,8 +22,17 @@ class Home extends Component {
   }
 
   handleInputChange = (event) => {
-    console.log(event.currentTarget.value);
+    const value = event.currentTarget.value
+    console.log(value);
     this.setState({search: event.currentTarget.value})
+    const searchedEmployees = this.state.employees.filter((user) => {
+      console.log("user", Object.values(user));
+      let results = Object.values(user).join("").toLowerCase();
+    
+      return results.indexOf(value.toLowerCase()) !== -1;
+      //return results where the indexOf() of the searchedEmployees(tolowercased) != -1
+    })
+    this.setState({ filterEmployees: searchedEmployees })
   };
 
   handleSearch  = () => {
